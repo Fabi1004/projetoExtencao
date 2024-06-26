@@ -254,3 +254,32 @@ h1.tabTitulo{
 .btnCadastro{
   margin-top: 10px;
 }
+
+/* Card Vaga */
+.card-container {
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 0;
+}
